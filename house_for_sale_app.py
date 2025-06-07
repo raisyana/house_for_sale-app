@@ -44,7 +44,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-DATA_PATH = 'C:/Users/HP CAMO/Documents/A - KULIAH/SEMESTER 8/Reccomender System/Mini Project/properties.csv'
+DATA_PATH = 'properties.csv'
 
 @st.cache_data
 def load_data():
